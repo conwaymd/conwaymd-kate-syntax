@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    Kate syntax highlight filter for Markdown/MultiMarkdown documents.
+    Kate syntax highlight filter for CMD (Conway-Markdown) documents.
+    Modified from <https://kate-editor.org/syntax/data/syntax/markdown.xml>.
 
     Copyright 2008 Darrin Yeager. http://www.dyeager.org/
     Dual-Licensed under both GPL and BSD licenses.
@@ -94,7 +95,7 @@
 <!ENTITY checkbox "\[[ x]\](?=\s)">
 ]>
 
-<language name="Markdown" version="29" kateversion="5.79" section="Markup" extensions="*.md;*.mmd;*.markdown" mimetype="text/markdown" priority="15" author="Darrin Yeager, Claes Holmerson" license="GPL,BSD">
+<language name="Conway-Markdown" version="0" kateversion="5.79" section="Markup" extensions="*.cmd;*.cmdr" mimetype="text/cmd" priority="15" author="Conway et al." license="GPL,BSD">
   <highlighting>
     <contexts>
       <!-- Start of the Markdown document: find metadata or code block -->
