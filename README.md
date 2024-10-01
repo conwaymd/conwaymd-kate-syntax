@@ -9,4 +9,4 @@ and registering the extensions `.cmd` and `.cmdr`.
 To be placed in `$HOME/.local/share/org.kde.syntax-highlighting/syntax/`.
 
 [highlight]: https://docs.kde.org/stable5/en/kate/katepart/highlight.html#katehighlight-xml-format
-[Conway-Markdown]: https://github.com/conway-markdown
+[Conway-Markdown]: https://github.com/conwaymd
